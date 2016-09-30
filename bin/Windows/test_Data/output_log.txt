@@ -1,0 +1,90 @@
+Mono path[0] = 'C:/Users/Leo/Dropbox/GameDev/Garage/test_Data/Managed'
+Mono path[1] = 'C:/Users/Leo/Dropbox/GameDev/Garage/test_Data/Mono'
+Mono config path = 'C:/Users/Leo/Dropbox/GameDev/Garage/test_Data/Mono/etc'
+PlayerConnection initialized from C:/Users/Leo/Dropbox/GameDev/Garage/test_Data (debug = 0)
+PlayerConnection initialized network socket : 0.0.0.0 55438
+Multi-casting "[IP] 192.168.56.1 [Port] 55438 [Flags] 2 [Guid] 1622675098 [EditorId] 3476292893 [Version] 1048832 [Id] WindowsPlayer(Leo) [Debug] 0" to [225.0.0.222:54997]...
+PlayerConnection already initialized - listening to [192.168.56.1:55438]
+Initialize engine version: 5.4.1f1 (649f48bbbf0f)
+GfxDevice: creating device client; threaded=1
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.0]
+    Renderer: NVIDIA GeForce GT 750M (ID=0xfe4)
+    Vendor:   NVIDIA
+    VRAM:     1987 MB
+Begin MonoManager ReloadAssembly
+Platform assembly: C:\Users\Leo\Dropbox\GameDev\Garage\test_Data\Managed\UnityEngine.dll (this message is harmless)
+Loading C:\Users\Leo\Dropbox\GameDev\Garage\test_Data\Managed\UnityEngine.dll into Unity Child Domain
+Platform assembly: C:\Users\Leo\Dropbox\GameDev\Garage\test_Data\Managed\Assembly-CSharp.dll (this message is harmless)
+Loading C:\Users\Leo\Dropbox\GameDev\Garage\test_Data\Managed\Assembly-CSharp.dll into Unity Child Domain
+Platform assembly: C:\Users\Leo\Dropbox\GameDev\Garage\test_Data\Managed\UnityEngine.UI.dll (this message is harmless)
+Loading C:\Users\Leo\Dropbox\GameDev\Garage\test_Data\Managed\UnityEngine.UI.dll into Unity Child Domain
+Platform assembly: C:\Users\Leo\Dropbox\GameDev\Garage\test_Data\Managed\UnityEngine.Networking.dll (this message is harmless)
+Loading C:\Users\Leo\Dropbox\GameDev\Garage\test_Data\Managed\UnityEngine.Networking.dll into Unity Child Domain
+- Completed reload, in  0.062 seconds
+Platform assembly: C:\Users\Leo\Dropbox\GameDev\Garage\test_Data\Managed\System.Core.dll (this message is harmless)
+Platform assembly: C:\Users\Leo\Dropbox\GameDev\Garage\test_Data\Managed\System.dll (this message is harmless)
+desktop: 1920x1080 60Hz; virtual: 1920x1080 at 0,0
+<RI> Initializing input.
+<RI> Input initialized.
+<RI> Initialized touch support.
+UnloadTime: 0.769347 ms
+Setting up 2 worker threads for Enlighten.
+  Thread -> id: 26a8 -> priority: 1 
+  Thread -> id: 1c80 -> priority: 1 
+Unloading 6 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 4.055004 ms
+NullReferenceException: Object reference not set to an instance of an object
+  at PartAdapter.FillDropdown (.Part[] parts, UnityEngine.UI.Dropdown dropdown) [0x00000] in <filename unknown>:0 
+  at Component.Initialize () [0x00000] in C:\Users\Leo\Dropbox\GameDev\Garage\Assets\Scripts\Component.cs:19 
+  at Car.InitializeAllComponents () [0x0007a] in C:\Users\Leo\Dropbox\GameDev\Garage\Assets\Scripts\Car.cs:40 
+  at Car.Start () [0x0000b] in C:\Users\Leo\Dropbox\GameDev\Garage\Assets\Scripts\Car.cs:28 
+ 
+(Filename: C:/Users/Leo/Dropbox/GameDev/Garage/Assets/Scripts/Component.cs Line: 19)
+
+System memory in use before: 43.1 MB.
+System memory in use after: 43.2 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1446.
+Total: 1.185026 ms (FindLiveObjects: 0.089807 ms CreateObjectMapping: 0.065430 ms MarkObjects: 1.013109 ms  DeleteObjects: 0.010263 ms)
+
+Unloading 5 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 1.590868 ms
+NullReferenceException: Object reference not set to an instance of an object
+  at PartAdapter.FillDropdown (.Part[] parts, UnityEngine.UI.Dropdown dropdown) [0x00000] in <filename unknown>:0 
+  at Component.Initialize () [0x00000] in C:\Users\Leo\Dropbox\GameDev\Garage\Assets\Scripts\Component.cs:19 
+  at Car.InitializeAllComponents () [0x0007a] in C:\Users\Leo\Dropbox\GameDev\Garage\Assets\Scripts\Car.cs:40 
+  at Car.Start () [0x0000b] in C:\Users\Leo\Dropbox\GameDev\Garage\Assets\Scripts\Car.cs:28 
+ 
+(Filename: C:/Users/Leo/Dropbox/GameDev/Garage/Assets/Scripts/Component.cs Line: 19)
+
+System memory in use before: 43.9 MB.
+System memory in use after: 43.2 MB.
+
+Unloading 3 unused Assets to reduce memory usage. Loaded Objects now: 1445.
+Total: 0.808691 ms (FindLiveObjects: 0.060299 ms CreateObjectMapping: 0.039344 ms MarkObjects: 0.697929 ms  DeleteObjects: 0.010691 ms)
+
+Unloading 5 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 1.213251 ms
+System memory in use before: 43.0 MB.
+System memory in use after: 43.0 MB.
+
+Unloading 42 unused Assets to reduce memory usage. Loaded Objects now: 1399.
+Total: 0.641906 ms (FindLiveObjects: 0.041909 ms CreateObjectMapping: 0.038061 ms MarkObjects: 0.521308 ms  DeleteObjects: 0.039771 ms)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at PartAdapter.FillDropdown (.Part[] parts, UnityEngine.UI.Dropdown dropdown) [0x00000] in <filename unknown>:0 
+  at Component.Initialize () [0x00000] in C:\Users\Leo\Dropbox\GameDev\Garage\Assets\Scripts\Component.cs:19 
+  at Car.InitializeAllComponents () [0x0007a] in C:\Users\Leo\Dropbox\GameDev\Garage\Assets\Scripts\Car.cs:40 
+  at Car.Start () [0x0000b] in C:\Users\Leo\Dropbox\GameDev\Garage\Assets\Scripts\Car.cs:28 
+ 
+(Filename: C:/Users/Leo/Dropbox/GameDev/Garage/Assets/Scripts/Component.cs Line: 19)
+
+Unloading 4 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 5.016368 ms
+System memory in use before: 42.7 MB.
+System memory in use after: 30.8 MB.
+
+Unloading 203 unused Assets to reduce memory usage. Loaded Objects now: 373.
+Total: 1.259865 ms (FindLiveObjects: 0.021810 ms CreateObjectMapping: 0.022665 ms MarkObjects: 0.213398 ms  DeleteObjects: 1.001563 ms)
+
